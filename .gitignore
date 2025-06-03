@@ -192,3 +192,53 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# LaTeX
+*.aux
+*.log
+*.toc
+*.synctex.gz
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.pdf
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Data files
+*.csv
+*.xlsx
+*.h5
+*.npz
+*.mat
+*.pickle
+*.pkl
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
